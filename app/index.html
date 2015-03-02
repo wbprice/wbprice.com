@@ -1,27 +1,50 @@
 <!doctype html>
-<html class="no-js">
+<html lang="">
   <head>
     <meta charset="utf-8">
-    <title>wbprice com</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wbprice com</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/pure/pure.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
 
   </head>
   <body>
     <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="pure-g">
-      <header class="pure-u-1">
-        <h1>Blaine Price</h1>
-      </header>
-    </div> 
+    <div class="background"></div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <section class="pure-g container">
+
+      <aside class="pure-u-1-1 pure-u-sm-2-5">
+        <div class="circle">
+          <h1>wbprice</h1>
+        </div>
+      </aside>
+
+      <section class="pure-u-1-1 pure-u-sm-3-5">
+        <h2>Some stuff about me</h2>
+      </section>
+
+    </section>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -32,6 +55,15 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-    <script src="scripts/main.js"></script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
 </body>
 </html>
