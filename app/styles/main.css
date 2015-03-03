@@ -78,6 +78,13 @@ article p.tagline {
   margin: 0;
 }
 
+.social-links h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: .8em;
+  text-align: center;
+}
+
 .social-links ul {
   margin: 0 0 1em 0;
   padding: 0;
@@ -153,6 +160,10 @@ article p.tagline {
     margin: 3em 0;
   }
 
+  .social-links h3 {
+    text-align: left;
+  }
+
   .social-links ul li {
     display: inline-block;
   }
@@ -167,7 +178,7 @@ article p.tagline {
   }
 
   .container {
-    width: 640px;
+    width: 720px;
     margin: 0 auto;
   }
 }
