@@ -1,8 +1,0 @@
-{
-  "name": "wbprice-com",
-  "private": true,
-  "dependencies": {
-    "jquery": "~2.1.1",
-    "pure": "~0.6.0"
-  }
-}
