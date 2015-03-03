@@ -1,0 +1,1 @@
+"use strict";console.log("'Allo 'Allo!"),$(function(){$(window).width()>=768&&$(".background").height($(window).innerHeight()/3)});
