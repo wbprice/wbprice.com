@@ -4,9 +4,9 @@
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #1a1a1a;
   /* background: url('../images/gridme.png'); */
-  background: url('../images/grey.png');
+  /* background: url('../images/grey.png'); */
 }
 
 html {
@@ -22,8 +22,9 @@ h1, h2, h3, h4, h5 {
 
 .background {
   height: 250px;
-  background: url(../images/macbook-air.jpg) 50% 40%;
-  background-size: cover;
+  /* background: url(../images/macbook-air.jpg) 50% 40%; */
+  background: url('../images/congruent_outline.png');
+  /* background-size: cover; */
 }
 
 .container {
@@ -34,10 +35,10 @@ h1, h2, h3, h4, h5 {
 .circle {
   width: 200px;
   height: 200px;
-  background: #333;
+  background: #A30006;
   border-radius: 100%;
   position: absolute;
-  top: -90px;
+  top: -60px;
 }
 
 .circle p {
@@ -64,6 +65,7 @@ article h2 {
   font-size: 2em;
   margin: 3em 0em;
   line-height: 1.5em;
+  color: #333333;
 }
 
 article p.tagline {
@@ -85,9 +87,20 @@ article p.tagline {
 
 .social-links ul li {
   display: inline-block;
-  min-height: 48px;
+}
+
+.social-links ul li a {
+  color: #1a1a1a;
+  text-decoration: none;
+  height: 48px;
   line-height: 48px;
   padding: 0 1em;
+  display: inline-block;
+}
+
+.social-links ul li a:hover {
+  background: #a1a1a1;
+  color: white;
 }
 
 .social-links ul li i {
