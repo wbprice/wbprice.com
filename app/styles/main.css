@@ -5,13 +5,13 @@ body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1a1a1a;
-  /* background: url('../images/gridme.png'); */
-  /* background: url('../images/grey.png'); */
+  background: url('../images/grey.png');
 }
 
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -22,9 +22,7 @@ h1, h2, h3, h4, h5 {
 
 .background {
   height: 250px;
-  /* background: url(../images/macbook-air.jpg) 50% 40%; */
   background: url('../images/congruent_outline.png');
-  /* background-size: cover; */
 }
 
 .container {
@@ -79,8 +77,8 @@ article p.tagline {
 .social-links ul {
   margin: 0;
   padding: 0;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
   display: block;
   text-align: center;
 }
